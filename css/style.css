@@ -242,6 +242,9 @@ header {
     .hamburger {
         font-size: 25px;
     }
+    .nav-open .nav {
+        transform: translateX(50%);
+    }
 }
 
 
