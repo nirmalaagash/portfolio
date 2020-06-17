@@ -4,7 +4,7 @@ var glide = new Glide('.glide', {
     perView: 3,
     gap: 20,
     focusAt: 1,
-    autoplay: 3000,
+    autoplay: false,
     hoverpause: true,
     bound: true,
     breakpoints: {
@@ -23,7 +23,7 @@ var testimonial_glide = new Glide('.testimonial_glide', {
     perView: 1,
     gap: 20,
     focusAt: 1,
-    autoplay: 5000,
+    autoplay: false,
     hoverpause: true,
     bound: true,
     breakpoints: {
